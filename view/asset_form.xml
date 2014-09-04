@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+     copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/notebook" position="inside">
+        <page name="attributes" col="2">
+            <label name="attribute_set"/>
+            <field name="attribute_set"/>
+            <field name="attributes" colspan="2"/>
+        </page>
+    </xpath>
+</data>

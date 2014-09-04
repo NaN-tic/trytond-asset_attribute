@@ -1,0 +1,207 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:asset,attribute_set:"
+msgid "Set"
+msgstr "Conjunto"
+
+msgctxt "field:asset,attributes:"
+msgid "Attributes"
+msgstr "Atributos"
+
+msgctxt "field:asset.attribute,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:asset.attribute,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:asset.attribute,digits:"
+msgid "Digits"
+msgstr "Digitos"
+
+msgctxt "field:asset.attribute,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:asset.attribute,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.attribute,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.attribute,selection:"
+msgid "Selection"
+msgstr "Selección"
+
+msgctxt "field:asset.attribute,selection_json:"
+msgid "Selection JSON"
+msgstr "Selección JSON"
+
+msgctxt "field:asset.attribute,sets:"
+msgid "Sets"
+msgstr "Conjuntos"
+
+msgctxt "field:asset.attribute,string:"
+msgid "String"
+msgstr "Etiqueta"
+
+msgctxt "field:asset.attribute,type_:"
+msgid "Type"
+msgstr "Tipo"
+
+msgctxt "field:asset.attribute,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.attribute,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.attribute-asset.attribute-set,attribute:"
+msgid "Attribute"
+msgstr "Atributo"
+
+msgctxt "field:asset.attribute-asset.attribute-set,attribute_set:"
+msgid "Set"
+msgstr "Conjunto"
+
+msgctxt "field:asset.attribute-asset.attribute-set,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:asset.attribute-asset.attribute-set,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:asset.attribute-asset.attribute-set,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:asset.attribute-asset.attribute-set,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.attribute-asset.attribute-set,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.attribute-asset.attribute-set,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "field:asset.attribute.set,attributes:"
+msgid "Attributes"
+msgstr "Atributos"
+
+msgctxt "field:asset.attribute.set,create_date:"
+msgid "Create Date"
+msgstr "Fecha creación"
+
+msgctxt "field:asset.attribute.set,create_uid:"
+msgid "Create User"
+msgstr "Usuario creación"
+
+msgctxt "field:asset.attribute.set,id:"
+msgid "ID"
+msgstr "ID"
+
+msgctxt "field:asset.attribute.set,name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.attribute.set,rec_name:"
+msgid "Name"
+msgstr "Nombre"
+
+msgctxt "field:asset.attribute.set,write_date:"
+msgid "Write Date"
+msgstr "Fecha modificación"
+
+msgctxt "field:asset.attribute.set,write_uid:"
+msgid "Write User"
+msgstr "Usuario modificación"
+
+msgctxt "help:asset.attribute,selection:"
+msgid "A couple of key and label separated by \":\" per line"
+msgstr "Clave y valor separados por \\\":\\\" en cada línea."
+
+msgctxt "model:asset.attribute,name:"
+msgid "Asset Attribute"
+msgstr "Atributo activo"
+
+msgctxt "model:asset.attribute-asset.attribute-set,name:"
+msgid "Asset Attribute - Set"
+msgstr "Conjunto - Atributos activo"
+
+msgctxt "model:asset.attribute.set,name:"
+msgid "Asset Attribute Set"
+msgstr "Conjunto atributos activo"
+
+msgctxt "model:ir.action,name:act_attribute_form"
+msgid "Attributes"
+msgstr "Atributos"
+
+msgctxt "model:ir.action,name:act_attribute_set_form"
+msgid "Attribute Sets"
+msgstr "Conjuntos de atributo"
+
+msgctxt "model:ir.ui.menu,name:menu_attribute"
+msgid "Attributes"
+msgstr "Atributos"
+
+msgctxt "model:ir.ui.menu,name:menu_attribute_set"
+msgid "Attribute Sets"
+msgstr "Conjuntos de atributo"
+
+msgctxt "selection:asset.attribute,type_:"
+msgid "Boolean"
+msgstr "Booleano"
+
+msgctxt "selection:asset.attribute,type_:"
+msgid "Char"
+msgstr "Texto"
+
+msgctxt "selection:asset.attribute,type_:"
+msgid "Date"
+msgstr "Fecha"
+
+msgctxt "selection:asset.attribute,type_:"
+msgid "DateTime"
+msgstr "Fecha/Hora"
+
+msgctxt "selection:asset.attribute,type_:"
+msgid "Float"
+msgstr "Número coma flotante"
+
+msgctxt "selection:asset.attribute,type_:"
+msgid "Integer"
+msgstr "Entero"
+
+msgctxt "selection:asset.attribute,type_:"
+msgid "Numeric"
+msgstr "Númerico"
+
+msgctxt "selection:asset.attribute,type_:"
+msgid "Selection"
+msgstr "Selección"
+
+msgctxt "view:asset.attribute.set:"
+msgid "Attribute Set"
+msgstr "Conjunto de atributos"
+
+msgctxt "view:asset.attribute.set:"
+msgid "Attribute Sets"
+msgstr "Conjuntos de atributo"
+
+msgctxt "view:asset.attribute:"
+msgid "Attribute"
+msgstr "Atributo"
+
+msgctxt "view:asset.attribute:"
+msgid "Attributes"
+msgstr "Atributos"
