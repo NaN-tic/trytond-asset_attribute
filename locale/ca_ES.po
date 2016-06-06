@@ -1,4 +1,4 @@
-# 
+#
 msgid ""
 msgstr "Content-Type: text/plain; charset=utf-8\n"
 
@@ -128,7 +128,7 @@ msgstr "Usuari modificació"
 
 msgctxt "help:asset.attribute,selection:"
 msgid "A couple of key and label separated by \":\" per line"
-msgstr "Clau i valor separats per \\\":\\\" a cada línia."
+msgstr "Clau i valor separats per \":\" a cada línia."
 
 msgctxt "model:asset.attribute,name:"
 msgid "Asset Attribute"
