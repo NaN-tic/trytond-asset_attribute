@@ -32,9 +32,8 @@ class AssetAttributeAttributeSet(ModelSQL):
         ondelete='CASCADE', select=True, required=True)
 
 
-class Asset:
+class Asset(metaclass=PoolMeta):
     __name__ = 'asset'
-    __metaclass__ = PoolMeta
     attribute_set = fields.Many2One('asset.attribute.set', 'Set')
     attributes = fields.Dict('asset.attribute', 'Attributes',
         domain=[
