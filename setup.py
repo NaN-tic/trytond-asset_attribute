@@ -55,7 +55,7 @@ if minor_version % 2:
 else:
     branch = series
 dependency_links = [
-    ('hg+https://bitbucket.org/nantic/trytond-asset@%(branch)s'
+    ('git+https://github.com/NaN-tic/trytond-asset@%(branch)s'
         '#egg=nantic_asset-%(series)s' % {
             'branch': branch,
             'series': series,
@@ -72,7 +72,7 @@ setup(name='%s_%s' % (PREFIX, MODULE),
     author='NaN·tic',
     author_email='info@nan-tic.com',
     url='http://www.nan-tic.com/',
-    download_url="https://bitbucket.org/nantic/trytond-%s" % MODULE,
+    download_url="https://github.com/NaN-tic/trytond-%s" % MODULE,
     package_dir={'trytond.modules.%s' % MODULE: '.'},
     packages=[
         'trytond.modules.%s' % MODULE,
