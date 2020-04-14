@@ -51,7 +51,7 @@ requires.append(get_require_version('trytond'))
 tests_require = []
 series = '%s.%s' % (major_version, minor_version)
 if minor_version % 2:
-    branch = 'default'
+    branch = 'master'
 else:
     branch = series
 dependency_links = [
