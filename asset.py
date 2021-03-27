@@ -4,9 +4,6 @@ from trytond.model import ModelSQL, ModelView, DictSchemaMixin, fields
 from trytond.pyson import Eval
 from trytond.pool import PoolMeta
 
-__all__ = ['AssetAttributeSet', 'AssetAttribute', 'AssetAttributeAttributeSet',
-    'Asset']
-
 
 class AssetAttributeSet(ModelSQL, ModelView):
     "Asset Attribute Set"
