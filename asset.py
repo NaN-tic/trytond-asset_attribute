@@ -24,9 +24,9 @@ class AssetAttributeAttributeSet(ModelSQL):
     "Asset Attribute - Set"
     __name__ = 'asset.attribute-asset.attribute-set'
     attribute = fields.Many2One('asset.attribute', 'Attribute',
-        ondelete='CASCADE', select=True, required=True)
+        ondelete='CASCADE', required=True)
     attribute_set = fields.Many2One('asset.attribute.set', 'Set',
-        ondelete='CASCADE', select=True, required=True)
+        ondelete='CASCADE', required=True)
 
 
 class Asset(metaclass=PoolMeta):
