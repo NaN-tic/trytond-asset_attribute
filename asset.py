@@ -36,7 +36,6 @@ class Asset(metaclass=PoolMeta):
         domain=[
             ('sets', '=', Eval('attribute_set', -1)),
             ],
-        depends=['attribute_set'],
         states={
             'readonly': ~Eval('attribute_set', {}),
             })
