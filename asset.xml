@@ -35,14 +35,14 @@ this repository contains the full copyright notices and license terms. -->
             action="act_attribute_set_form"/>
 
         <record model="ir.model.access" id="access_attribute_set">
-            <field name="model" search="[('model', '=', 'asset.attribute.set')]"/>
+            <field name="model">asset.attribute.set</field>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="False"/>
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
         <record model="ir.model.access" id="access_attribute_set_admin">
-            <field name="model" search="[('model', '=', 'asset.attribute.set')]"/>
+            <field name="model">asset.attribute.set</field>
             <field name="group" ref="asset.group_asset_admin"/>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="True"/>
@@ -80,14 +80,14 @@ this repository contains the full copyright notices and license terms. -->
             action="act_attribute_form"/>
 
         <record model="ir.model.access" id="access_attribute">
-            <field name="model" search="[('model', '=', 'asset.attribute')]"/>
+            <field name="model">asset.attribute</field>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="False"/>
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
         <record model="ir.model.access" id="access_attribute_admin">
-            <field name="model" search="[('model', '=', 'asset.attribute')]"/>
+            <field name="model">asset.attribute</field>
             <field name="group" ref="asset.group_asset_admin"/>
             <field name="perm_read" eval="True"/>
             <field name="perm_write" eval="True"/>
